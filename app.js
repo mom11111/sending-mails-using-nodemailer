@@ -5,14 +5,14 @@ const app=express();
 const transporter=nodemailer.createTransport({
 service:'Gmail',
 auth:{
-    user:'nishantkumar91099@gmail.com',
-    pass:'nishantsrw'
+    user:'your email',
+    pass:'your email password'
 }
 });
 
 const moreoptions={
-    from: 'nishantkumar91099@email.com', // sender address
-  to: 'ipg_2016063@iiitm.ac.in', // list of receivers
+    from: 'something@email.com', // sender address
+  to: 'ipg_2016062@iiitm.ac.in', // list of receivers
   subject: 'trial', // Subject line
   html: '<p>Your html here</p>'// plain text body
 }
